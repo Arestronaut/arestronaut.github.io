@@ -1,0 +1,21 @@
+{%- include head.html -%}
+
+<div class="container_post">
+    {%- include top_small.html -%}
+
+    {%- comment -%}
+        See '/ofri' or '2019-03-07-whats-Kikofri.md'
+        for explanations.
+    {%- endcomment -%}
+
+    {% if content contains 'µ#' or 'µ;;' or 'µµ' -%}
+        {{- content
+            | replace: 'µ#', '<sup>[' | replace: '#µ', ']</sup>'
+            | replace: 'µ;;', '<b>' | replace: ';;µ', '</b>'
+            | replace: "µµ", "&emsp;" }}
+    {%- else -%}
+        {{- content -}}
+    {%- endif -%}
+</div>
+
+{%- include foot.html -%}

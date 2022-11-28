@@ -1,55 +1,57 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# # # # # # # # # #
+#  K i k o f r i  #
+# # # # # # # # # #
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
+# # # # #
+# Used as meta-data for 'head.html' among 
+# other things.
 #
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
+# Basic, either your jekyll site's name or
+# an organization.
+name: "Raoul Schwagmeier"
+description: ""
+
+# This should be a person of some sort.
+author: "Raoul Schwagmeier"
+
+# Would make sense to use the 'name:' above
+# here. This is an alternative title.
+title: "Left on read since 1995"
+
+# 'en_US' is the default language. Enter a
+# new default language here. Making 'en_US'
+# an alternative language. See 'head.html'
+lang:
+
+# Default post and page image if it's those
+# are unspecified.
+image: /assets/images/kikofrieye.png
+
+# I just set this to whatever the above
+# image value is.
+# Could be some other image though.
+logo:
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# # # # #
+
+# URL-stuff, don't forget the 'http...'-part
+url: "https://www.raoulschwagmeier.me"
+#baseurl: ""
+permalink: /:year/:month/:day/:title.html
+
+# Markdown
+markdown: kramdown
+
+# Navigation
+nav:
+ - name: "about"
+   href: "/about"
+
+ - name: "tags"
+   href: "/tags"
+
+ - name: "feed"
+   href: "/feed.xml"
+
+ - name: "contact"
+   href: "/mailto:ivantheterrible@1530to1584.gov"
