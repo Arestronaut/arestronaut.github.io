@@ -32,6 +32,7 @@ There are, of course, a lot of resources out in the wild on how to brew a coffee
 
 
 > 💡 Tl;DR
+> 
 > I'm to lazy to write out an explanation, so please go to the ![official Aeropress website](https://aeropress.com/) for one.
 Alright, long story short, what do I do: I use **15gr** of medium/fine ground coffee** to **200gr** of boiling water.
 
