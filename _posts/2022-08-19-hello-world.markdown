@@ -2,7 +2,12 @@
 layout: post
 title:  "Hello World"
 date:   2022-08-19 12:00 +0000
-categories: blog general
+categories: [blog, general]
+tags: [blog, general]
+image: assets/images/
+description: ''
+featured: false
+hidden: false
 ---
 
 <style>

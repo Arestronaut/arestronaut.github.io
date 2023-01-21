@@ -2,8 +2,12 @@
 layout: post
 title:  iOS App development from start to finish - Part 0
 date:   2023-01-21 09:27:00 +0000
-categories: jekyll update
-tags:   Blog,iOS,Swift
+categories: [Blog,iOS,Swift]
+tags:   [Blog,iOS,Swift]
+image: assets/images/
+description: ''
+featured: false
+hidden: false
 ---
 When I first started working on iOS apps it felt very arduous to actually find the right resources to learn. The internet is full of tutorials on setting up an Xcode project, how to use certain APIs, how to choose the right architecture or Appstore deployment. But there are not as many on the overall process. From choosing the right setup over the implementation to the final deployment. Basically everything and anything that one needs to learn to bring their app idea to the public. This is going to be a multipart series on exactly that. 
 

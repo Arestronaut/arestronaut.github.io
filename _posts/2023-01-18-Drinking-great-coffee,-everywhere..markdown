@@ -2,8 +2,12 @@
 layout: post
 title:  Drinking great coffee, everywhere.
 date:   2023-01-18 20:28:00 +0000
-categories: jekyll update
-tags:   Coffee,Blog
+categories: [Blog, Coffee]
+tags:   [Coffee, Blog]
+image: assets/images/
+description: ''
+featured: false
+hidden: false
 ---
 Coffee. The second most important driver in todays tech world, after cocaine of course*. In the morning you drink it to shake off the tiredness from a restless night of sleep. During the day you drink it to be able to keep staring at the screen without crashing your forehead into it. At night it makes it possible to meet that one dreadful deadline. And so it begins: the circle of overstimulation.
 

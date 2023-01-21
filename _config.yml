@@ -1,57 +1,63 @@
-# # # # # # # # # #
-#  K i k o f r i  #
-# # # # # # # # # #
-
-# # # # #
-# Used as meta-data for 'head.html' among 
-# other things.
-#
-# Basic, either your jekyll site's name or
-# an organization.
+# Site
 name: "Raoul Schwagmeier"
-description: ""
-
-# This should be a person of some sort.
-author: "Raoul Schwagmeier"
-
-# Would make sense to use the 'name:' above
-# here. This is an alternative title.
 title: "Left on read since 1995"
+description: "Personal blog"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ''
+google_analytics: 'UA-46278016-1'
+disqus: ''
+mailchimp-list: ''
+include: ["_pages"]
+permalink: /:title/
 
-# 'en_US' is the default language. Enter a
-# new default language here. Making 'en_US'
-# an alternative language. See 'head.html'
-lang:
+# Authors
+authors:
+  sal:
+    name: Raoul
+    display_name: Raoul
+    gravatar: 01fef52b7f6297aba03daeaabff42ed0
+    email: r.schwagmeier@gmail.com
+    web: https://www.raoulschwagmeier.me
+    twitter: ''
+    description: ""
 
-# Default post and page image if it's those
-# are unspecified.
-image: /assets/images/kikofrieye.png
-
-# I just set this to whatever the above
-# image value is.
-# Could be some other image though.
-logo:
-#
-# # # # #
-
-# URL-stuff, don't forget the 'http...'-part
-url: "https://www.raoulschwagmeier.me"
-#baseurl: ""
-permalink: /:year/:month/:day/:title.html
-
-# Markdown
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
 markdown: kramdown
 
-# Navigation
-nav:
- - name: "about"
-   href: "/about"
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
- - name: "tags"
-   href: "/tags"
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
 
- - name: "feed"
-   href: "/feed.xml"
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
 
- - name: "contact"
-   href: "/mailto:ivantheterrible@1530to1584.gov"
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
