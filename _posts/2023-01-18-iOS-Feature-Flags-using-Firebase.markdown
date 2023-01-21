@@ -2,7 +2,8 @@
 layout: post
 title: iOS Feature Flags using Firebase
 date: 2023-01-18 21:59:00 +0000
-categories: []
+author: raoul
+categories: [Blog,iOS,Swift]
 tags: [Blog,iOS,Swift]
 image: assets/images/geile_eier.jpg
 description: ""
