@@ -4,7 +4,7 @@ title: Drinking great coffee, everywhere
 date: 2023-01-18 20:28:00 +0000
 categories: []
 tags: [Coffee,Blog]
-image: assets/images/{:image_name=>"geile_eier.jpg", :featured=>false, :description=>""}
+image: assets/images/{:image_name=>"geile_eier.jpg", :featured=>"false", :description=>""}
 description: ""
 featured: 
 hidden: false
