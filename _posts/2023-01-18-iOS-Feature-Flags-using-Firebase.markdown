@@ -4,9 +4,9 @@ title: iOS Feature Flags using Firebase
 date: 2023-01-18 21:59:00 +0000
 categories: []
 tags: [Blog,iOS,Swift]
-image: assets/images/{:image_name=>"geile_eier.jpg", :featured=>"false", :description=>""}
+image: assets/images/geile_eier.jpg
 description: ""
-featured: 
+featured: false
 hidden: false
 ---
 Imagine these conversations with your PM over a couple of weeks:
