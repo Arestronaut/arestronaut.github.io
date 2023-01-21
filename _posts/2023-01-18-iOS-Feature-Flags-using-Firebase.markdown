@@ -2,8 +2,12 @@
 layout: post
 title:  iOS Feature Flags using Firebase
 date:   2023-01-18 21:59:00 +0000
-categories: jekyll update
-tags:   Blog,iOS,Swift
+categories: [Blog,iOS,Swift]
+tags:   [Blog,iOS,Swift]
+image: assets/images/geile_eier.jpg
+description: ''
+featured: false
+hidden: false
 ---
 Imagine these conversations with your PM over a couple of weeks:
 

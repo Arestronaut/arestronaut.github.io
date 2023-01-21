@@ -4,7 +4,7 @@ title:  iOS App development from start to finish - Part 0
 date:   2023-01-21 09:27:00 +0000
 categories: [Blog,iOS,Swift]
 tags:   [Blog,iOS,Swift]
-image: assets/images/
+image: assets/images/geile_eier.jpg
 description: ''
 featured: false
 hidden: false
