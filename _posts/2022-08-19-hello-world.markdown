@@ -16,8 +16,6 @@ permalink: /about
 table {border: none;}
 </style>
 
-# Hello World
-
 As cringey as this title may feel for some I felt it was actually quite fitting. When first learning a programming language people often start by writing a very simple program that prints out Hello World. 
 
 ```
