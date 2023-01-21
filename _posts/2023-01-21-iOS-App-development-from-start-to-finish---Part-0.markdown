@@ -32,11 +32,14 @@ What kind of app are we going build? Sorry if it's going to seem a little lame b
 # **🛠  What you need**
 The list of requirements is very manageable:
 
-• A device that runs at least MacOS 12.X*(MacBook, iMac, MacMini, ...)
-*• Xcode >=13.X *(You can download it directly from the MacOS App Store)
-*• Basic knowledge of the Swift programming language(All you need to know can be learned [here](https://docs.swift.org/swift-book/))
-• An Apple Development account*(To deploy the app to the App Store you are going to need a paid membership, for the development a normal one is just fine)*
-
+- A device that runs at least MacOS 12.X
+*(MacBook, iMac, MacMini, ...)*
+- Xcode >=13.X 
+*(You can download it directly from the MacOS App Store)*
+- Basic knowledge of the Swift programming language
+*(All you need to know can be learned *[*here*](https://docs.swift.org/swift-book/)*)*
+- An Apple Development account*(
+To deploy the app to the App Store you are going to need a paid membership, for the development a normal one is just fine)*
 If all of this is taken care of, you can start this journey.
 
 ## **🎬 Final Remark**
