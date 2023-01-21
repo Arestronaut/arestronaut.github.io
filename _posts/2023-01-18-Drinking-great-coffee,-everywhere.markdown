@@ -2,7 +2,8 @@
 layout: post
 title: Drinking great coffee, everywhere
 date: 2023-01-18 20:28:00 +0000
-categories: []
+author: raoul
+categories: [Coffee,Blog]
 tags: [Coffee,Blog]
 image: assets/images/geile_eier.jpg
 description: ""
