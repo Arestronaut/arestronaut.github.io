@@ -9,6 +9,7 @@ description: ''
 featured: true
 hidden: false
 author: raoul
+permalink: /about
 ---
 
 <style>

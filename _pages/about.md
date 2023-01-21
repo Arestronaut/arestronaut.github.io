@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Raoul Schwagmeier
-permalink: /about
+permalink: /_about
 comments: true
 ---
 
