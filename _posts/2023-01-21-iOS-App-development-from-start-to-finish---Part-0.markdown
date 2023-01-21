@@ -18,9 +18,13 @@ The target audience is supposed to be everyone that is interested in developing 
 All of the points mentioned below are going to be covered in one or more separate posts. Especially topics like system design and implementation will take bit more to comprehensively explain. The following topics will be presented in the given order.
 
 > 🛠 Requirements and project overview 
+>
 > 📝 Sketching it out 
+> 
 > ⛓ A little bit of system design 
+> 
 > 👩‍💻 Implementation 
+> 
 > 🌤 Putting it out there
 
 The uncomfortable truth when working alone on an app project is that there is no one else that will take away parts of the job. Like designs, backend development, prioritisation or CI setup. But I feel it's good to do those things at least once by yourself to better appreciate the importance other positions.
