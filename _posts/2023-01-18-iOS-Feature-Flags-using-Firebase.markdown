@@ -8,6 +8,7 @@ image: assets/images/geile_eier.jpg
 description: ''
 featured: false
 hidden: false
+author: raoul
 ---
 Imagine these conversations with your PM over a couple of weeks:
 

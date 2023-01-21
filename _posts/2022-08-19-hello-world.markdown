@@ -6,7 +6,7 @@ categories: [blog, general]
 tags: [blog, general]
 image: assets/images/geile_eier.jpg
 description: ''
-featured: false
+featured: true
 hidden: false
 ---
 

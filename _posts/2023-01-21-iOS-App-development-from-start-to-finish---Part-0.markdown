@@ -8,6 +8,7 @@ image: assets/images/geile_eier.jpg
 description: ''
 featured: false
 hidden: false
+author: raoul
 ---
 When I first started working on iOS apps it felt very arduous to actually find the right resources to learn. The internet is full of tutorials on setting up an Xcode project, how to use certain APIs, how to choose the right architecture or Appstore deployment. But there are not as many on the overall process. From choosing the right setup over the implementation to the final deployment. Basically everything and anything that one needs to learn to bring their app idea to the public. This is going to be a multipart series on exactly that. 
 
@@ -17,13 +18,9 @@ The target audience is supposed to be everyone that is interested in developing 
 All of the points mentioned below are going to be covered in one or more separate posts. Especially topics like system design and implementation will take bit more to comprehensively explain. The following topics will be presented in the given order.
 
 > 🛠 Requirements and project overview 
->
 > 📝 Sketching it out 
->
 > ⛓ A little bit of system design 
->
 > 👩‍💻 Implementation 
->
 > 🌤 Putting it out there
 
 The uncomfortable truth when working alone on an app project is that there is no one else that will take away parts of the job. Like designs, backend development, prioritisation or CI setup. But I feel it's good to do those things at least once by yourself to better appreciate the importance other positions.
