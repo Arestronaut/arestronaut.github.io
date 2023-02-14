@@ -5,7 +5,7 @@ date: 2023-01-30 10:40:00 +0000
 author: raoul
 categories: [Blog,iOS,Swift]
 tags: []
-image: assets/images/paula_tongue.png
+image: assets/images/paula_tongue.jpg
 description: "📝 Sketching it out."
 featured: false
 hidden: false
@@ -16,6 +16,8 @@ If you have not read the first part of the series I'd highly recommend doing so 
 Again, those first few parts are going to be a bit of a drag to read as they are purely about the what and how. Building a piece of software can be compared to baking a cake. It usually is a lot easier when you know what tools to use and what ingredients to put in before you start. This part is basically about describing what kind of cake we are baking or in other words what app we are programming and the ingredients that it's made from.
 
 ![Alt](https://c.tenor.com/5SKA5XuifgoAAAAC/swedish-chef-baking.gif)
+
+
 Alright, enough with the analogy. The project is a flashcard learning app.
 
 ## **🌍 Feature overview**
