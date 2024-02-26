@@ -1,0 +1,13 @@
+<div class="header-info">
+  <a href={{ site.url }}>
+    <span class="header-info-image"><img src="{{ site.url }}/assets/images/logo.png"></span>
+    <span class="header-info-name">{{ site.title }}</span>
+  </a>
+</div>
+<nav class="header-nav">
+  <ul class="header-main-nav">
+  {% for item in site.data.menus %}
+    <li class="header-main-nav-item"><a href="{% if item.absoluteUrl != true %}{{ site.baseurl }}/{% endif %}{{ item.url }}">{% if item.default %}{{ site.data.lang[site.language][item.default] }}{% else %}{{ item.title }}{% endif %}</a></li>
+  {% endfor %}
+  </ul>
+</nav>

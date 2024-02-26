@@ -1,21 +1,13 @@
 ---
 layout: default
-title: Archive
 ---
-
-<!-- Begin List Posts
-================================================== -->
-<section class="recent-posts">
-<div class="section-title">
-    <h2>Archive of posts with <span>{{ page.type }} '{{ page.title }}'</span></h2>
-</div>
-<div class="row listrecent">
-
-{% for post in page.posts %}
-
-    {% include postbox.html %}
-
-{% endfor %}
-
-</div>
-</section>
+ <article class="container-page">
+  <div class="category-title">
+    <h1>{{ page.title }}</h1>
+  </div>
+  <ul class="category-list">
+  {% for post in page.posts %}
+    <li><span>{{ post.date | date: "%b %e, %Y" }}: </span><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+</article>
